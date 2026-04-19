@@ -1,0 +1,11 @@
+# NY State Jobs Automator – Requirements
+# Install with:  pip install -r requirements.txt
+
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+PyMuPDF>=1.23.0          # imported as fitz
+selenium>=4.18.0
+webdriver-manager>=4.0.0
+ollama>=0.1.7            # Ollama Python SDK (optional, falls back to REST)
+reportlab>=4.0.0         # Professional PDF cover letter generation
+pywin32>=306             # Outlook desktop app COM automation (Windows only)
